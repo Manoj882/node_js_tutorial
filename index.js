@@ -1,12 +1,8 @@
 
-// load or import the file add.js
- 
-const addFunc = require('./add.js');
+// Here, const variable = 'superHero' in batman.js and superman.js 
+// file is not faced conflict because each module in NodeJs has
+// it's own scope.
 
-console.log('Hello world from index.js');
+require('./batman');
+require('./superman');
 
-const sum1 = addFunc(3,4);
-const sum2 = addFunc(7.5,5.5);
-
-console.log(sum1);
-console.log(sum2);
