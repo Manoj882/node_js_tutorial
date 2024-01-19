@@ -21,7 +21,7 @@
 
 
 // 4th and 5th pattern
-const math = require('./math.js');
+const math = require('./math');
 
 const {add, subtract} = math;
 
